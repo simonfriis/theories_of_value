@@ -3,7 +3,6 @@ Theories of Value
 
 Code for "Coherence or Confusion" paper on theories of value. This code is currently a work in progress. Many of the features (e.g. makefiles and setup) have yet to be configured and will not work.
 
-    - In the root directory: `pip install -e .` (make sure the right interpreter is being used. do pip and setuptools need to be upgraded? poetry run pip install --upgrade pip setuptools. install seems to fail because of the pyproject.toml file is being used for metadata)
 Preliminary steps, not necessary to run here:
 
     - Lookup game names based on game ids. This is src/data/get_twitch_game_names.ipynb.
