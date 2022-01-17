@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "tov"
+version = "0.1.0"
+description = ""
+authors = ["Simon Friis <simonf@mit.edu>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+jupyter = "^1.0.0"
+ipykernel = "^6.6.0"
+pandas = "^1.3.4"
+numpy = "^1.21.4"
+scikit-learn = "^1.0.1"
+nltk = "^3.6.5"
+textacy = "^0.12.0"
+gensim = "~3.8.3"
+whatlies = "^0.6.5"
+spacy = "^3.2.1"
+tqdm = "^4.62.3"
+seaborn = "^0.11.2"
+pyarrow = "^6.0.1"
+fastparquet = "^0.7.2"
+multiprocess = "^0.70.12"
+ujson = "^5.1.0"
+ftfy = "^6.0.3"
+textblob = "^0.17.1"
+dask = "^2021.12.0"
+setuptools = "^60.5.0"
+
+[tool.poetry.dev-dependencies]
+line-profiler = "^3.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
