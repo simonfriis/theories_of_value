@@ -1,9 +1,17 @@
 # exclude data, models, and scratch files from source control by default (but keep folders)
-data/**
-models/**
-scratch/
-!/data/**/
+tov/data/**
+tov/models/**
+tov/scratch/
+*.jsonl
+!/tov/data/**/
 !**/.gitkeep
+
+*.jsonl
+*.csv
+*.pdf
+*.png
+
+.Rhistory
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
